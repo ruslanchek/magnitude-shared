@@ -1,0 +1,11 @@
+{
+  "name": "magnitude-shared",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ruslanchek/magnitude-shared.git",
+  "author": "Ruslan Shashkov <ruslanchek@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
