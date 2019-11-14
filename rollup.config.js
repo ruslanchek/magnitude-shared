@@ -21,7 +21,7 @@ export default [
           compilerOptions: {
             declaration: true,
           },
-          include: ['./src/*.ts'],
+          include: ['./src/**/*.ts'],
         },
       }),
       terser(),
