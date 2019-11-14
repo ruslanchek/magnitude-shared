@@ -1,10 +1,10 @@
 {
   "name": "@ruslanchek/magnitude-shared",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "build": "rm -rf lib && rollup --config ./rollup.config.js",
+    "build": "rm -rf build && rollup --config ./rollup.config.js",
     "prepare": "yarn build"
   },
   "publishConfig": {
