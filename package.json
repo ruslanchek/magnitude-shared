@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc --declarationMap --incremental",
+    "prepare": "yarn build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": "git@github.com:ruslanchek/magnitude-shared.git",
   "author": "Ruslan Shashkov <ruslanchek@gmail.com>",
