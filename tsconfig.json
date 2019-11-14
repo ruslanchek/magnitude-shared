@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "declaration": true,
     "removeComments": false,
     "emitDecoratorMetadata": true,
@@ -9,9 +8,7 @@
     "esModuleInterop": true,
     "target": "es2017",
     "sourceMap": true,
-    "outDir": "build",
-    "rootDir": "src",
-    "incremental": true
+    "outDir": "build"
   },
   "exclude": ["node_modules", "build"]
 }
