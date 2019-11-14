@@ -1,9 +1,10 @@
 {
   "name": "@ruslanchek/magnitude-shared",
-  "version": "0.0.1",
-  "main": "index.js",
+  "version": "0.0.2",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
-    "build": "tsc --declarationMap --incremental",
+    "build": "rm -rf lib && rollup --config ./rollup.config.js",
     "prepare": "yarn build"
   },
   "publishConfig": {
@@ -14,5 +15,10 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "rollup": "^1.27.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript2": "^0.25.2"
   }
 }
