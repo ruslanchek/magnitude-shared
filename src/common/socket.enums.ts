@@ -12,9 +12,10 @@ export enum ESocketAction {
 }
 
 export enum ESocketError {
-  InvalidToken,
-  NotFound,
-  BadRequest,
-  NoAccess,
-  ServerError,
+  InvalidToken = 'InvalidToken',
+  NotFound = 'NotFound',
+  BadRequest = 'BadRequest',
+  NoAccess = 'NoAccess',
+  ServerError = 'ServerError',
+  EmptyPacket = 'EmptyPacket',
 }
