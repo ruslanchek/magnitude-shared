@@ -18,4 +18,5 @@ export enum ESocketError {
   NoAccess = 'NoAccess',
   ServerError = 'ServerError',
   EmptyPacket = 'EmptyPacket',
+  InvalidData = 'InvalidData',
 }

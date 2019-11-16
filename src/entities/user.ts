@@ -1,5 +1,4 @@
-export interface IEntityUser {
-  _id: string;
+export interface IEntityUserShared {
+  id: string;
   email: string;
-  passwordHash: string;
 }
