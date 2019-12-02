@@ -1,4 +1,4 @@
-import { IEntityUser } from '../entities/User';
+import { IEntityUserShared } from '../entities/User';
 
 export interface IServerDtoAuthAuthorize {}
 export interface IServerDtoAuthRegister {
@@ -8,7 +8,7 @@ export interface IServerDtoAuthLogin {
   token: string;
 }
 export interface IServerDtoAuthMe {
-  user: IEntityUser;
+  user: IEntityUserShared;
 }
 
 export interface IServerDtoAuthValidateEmailRequest {}
