@@ -7,6 +7,11 @@
     "build": "rm -rf build && rollup --config ./rollup.config.js",
     "prepare": "yarn build"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -14,7 +19,9 @@
   "author": "Ruslan Shashkov <ruslanchek@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "husky": "^3.1.0",
     "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
     "rollup": "^1.27.0",
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-typescript2": "^0.25.2",
