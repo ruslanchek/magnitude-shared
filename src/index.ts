@@ -5,3 +5,4 @@ export * from './dto/server.dto';
 
 // Entities
 export * from './entities/User';
+export * from './entities/Project';
