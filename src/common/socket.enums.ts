@@ -9,6 +9,8 @@ export enum ESocketAction {
 
   AuthPasswordResetRequest = 'AuthPasswordResetRequest',
   AuthPasswordResetConfirm = 'AuthPasswordResetConfirm',
+
+  ProjectCreate = 'ProjectCreate',
 }
 
 export enum ESocketError {

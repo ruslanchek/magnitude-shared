@@ -1,9 +1,9 @@
 import { ESocketError } from './socket.enums';
 
 export interface ISocketClientPacket<T> {
-  data?: T;
-  token?: string | null;
-  ns?: string;
+  data: T;
+  token: string | null;
+  ns: string;
 }
 
 export interface ISocketServerErrorField {
