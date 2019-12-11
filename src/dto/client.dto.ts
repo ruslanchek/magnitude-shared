@@ -1,3 +1,6 @@
+/**
+ * Auth
+ * */
 export interface IClientDtoAuthAuthorize {}
 export interface IClientDtoAuthRegister {
   email: string;
@@ -20,3 +23,12 @@ export interface IClientDtoAuthPasswordResetRequest {
 export interface IClientDtoAuthPasswordResetConfirm {
   code: string;
 }
+
+/**
+ * Projects
+ * */
+export interface IClientDtoProjectCreate {
+  title: string;
+}
+
+export interface IClientDtoGetProjects {}
