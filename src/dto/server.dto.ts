@@ -28,6 +28,6 @@ export interface IServerDtoProjectCreate {
   item: IEntityProjectShared;
 }
 
-export interface IServerDtoGetProjects {
+export interface IServerDtoGetOwnProjects {
   list: IEntityProjectShared[];
 }
