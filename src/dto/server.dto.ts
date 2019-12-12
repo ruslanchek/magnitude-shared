@@ -30,4 +30,5 @@ export interface IServerDtoProjectCreate {
 
 export interface IServerDtoGetOwnProjects {
   list: IEntityProjectShared[];
+  incremental: boolean;
 }
