@@ -1,3 +1,5 @@
+import { IEntityTag } from './tag';
+
 export interface IEntityProjectShared {
   id: string;
   title: string;
@@ -5,4 +7,5 @@ export interface IEntityProjectShared {
   invitees: string[];
   updatedAt: Date;
   createdAt: Date;
+  tags: IEntityTag[];
 }
